@@ -51,9 +51,9 @@
     <?php if($lottery->getName() === 'big' ||
              $lottery->getName() === 'cherryBig' ||
              $lottery->getName() === 'regular' ||
-             $lottery->getName() === 'cherryRegular') { ?>
+             $lottery->getName() === 'cherryRegular') : ?>
      <img src="gogoW.png" alt="エラー" width="320px" height="255px">
-    <?php } ?>
+    <?php endif ?>
    </div>
    
  </div>
